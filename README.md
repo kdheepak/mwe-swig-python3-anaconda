@@ -28,6 +28,9 @@ On a Mac, with python from Anaconda2/Anaconda3+Python2-env/Anaconda2+Python2-env
 
 However, I have with me two machines where with Anaconda3 I'm able to get the above to work.
 
+For testing with Python2 using miniconda
 
+```bash
 $ cc -c $(python-config  --cflags) test.c test_wrap.c
 $ cc -bundle -L/Users/$USER/miniconda3/envs/python27/lib -lpython2.7 -ldl -framework CoreFoundation test.o test_wrap.o -o _test.so
+```
