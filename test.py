@@ -95,6 +95,10 @@ except __builtin__.Exception:
         pass
     _newclass = 0
 
+
+def hello():
+    return _test.hello()
+hello = _test.hello
 # This file is compatible with both classic and new-style classes.
 
 

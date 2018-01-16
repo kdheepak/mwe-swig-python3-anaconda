@@ -3,3 +3,5 @@
 %{
 int hello();
 %}
+
+int hello();
