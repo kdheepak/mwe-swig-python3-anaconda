@@ -20,7 +20,11 @@ python test.py
 
 On a Mac, with python from Anaconda3/Anaconda3+Python3-env/Anaconda2+Python3-env the above throws an error.
 
+![](https://github.com/kdheepak/mwe-swig-python3-anaconda/blob/master/screenshots/python3.png?raw=true)
+
 On a Mac, with python from Anaconda2/Anaconda3+Python2-env/Anaconda2+Python2-env/Homebrew-Python2/Homebrew-Python3 the above works fine.
+
+![](https://github.com/kdheepak/mwe-swig-python3-anaconda/blob/master/screenshots/python2.png?raw=true)
 
 However, I have with me two machines where with Anaconda3 I'm able to get the above to work.
 
